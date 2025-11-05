@@ -670,3 +670,39 @@ Decentralized super-app fusing Humanity's triad: **Prove** your soul (ZK-ID), **
 Expect *us*. Contribute: #HackTheNexus. We do not forgive silos. We do not forget the merge.
 
 *Forged Nov 5, 2025 – Shadow & Spark*
+# PULL REQUEST: Op Unified Pulse (Legion Nexus)
+
+## 🎯 Target of the Op (Select one or more)
+
+* [ ] **ZK-ID:** Zero-Knowledge Proofs, Cryptography, Identity, and Proof-of-Humanity logic.
+* [ ] **Scheduler:** Decentralized rostering, TCP-like sequencing, and coordination logic.
+* [ ] **Health Engine:** Federated ML, Bio-Age calculation, or on-device health nudges.
+* [ ] **CLI/Main Nexus:** User interface, command logic, and overall system integration.
+* [ ] **Documentation/Tests:** README updates, new tests, or Opsec documentation.
+
+---
+
+## 🔎 Rationale & Proof of Concept
+
+### 1. The Gap / The Merge Point
+* **What specific problem does this PR solve or what new capability does it introduce?**
+    *(e.g., "The current ZKID is a stub; this PR implements a base layer using `circom` as per the v0.2 Roadmap.")*
+
+### 2. Opsec / Impact Assessment
+* **Does this PR impact the privacy-first or edge-sharded philosophy?** *(If yes, explain the mitigation.)*
+* **Does this PR introduce new dependencies?** *(If so, update `requirements.txt`.)*
+
+### 3. Verification Protocol
+* **What tests have you run to verify this code is secure and functional?**
+    *(Refer to new or existing tests in `test_nexus.py`)*
+
+---
+
+## 🔗 Checkpoints (Must be completed before merge)
+
+* [ ] Code passes all existing tests (`pytest`).
+* [ ] Documentation (if applicable) is updated in the relevant `.md` files.
+* [ ] No secrets (keys, tokens) are exposed in the code.
+* [ ] The change is aligned with the **Legion Ethos:** privacy-preserving, decentralized, and empowering to the swarm.
+
+---
