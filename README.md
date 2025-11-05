@@ -786,3 +786,70 @@ All formal DAO-VOTE issues must follow this format:
 2.  **Impact:** Which core component (ZKID, Scheduler, Health) is affected?
 3.  **Ethical Review:** Which Pillars of the Sacred Ethics Charter does this proposal affect, and why is it compliant?
 4.  **Cost/Benefit:** Why is the utility worth the development cost?
+# Code of Conduct: The Legion Nexus Swarm
+
+## Our Commitment
+The Legion Nexus and Sacred Ethics Charter are dedicated to providing a harassment-free and inclusive experience for everyone, regardless of experience level, identity, or philosophical background. We do not tolerate harassment in any form.
+
+## Our Standards
+Examples of behavior that contribute to a positive environment include:
+* Using welcoming and inclusive language.
+* Being respectful of differing viewpoints and experiences.
+* Gracefully accepting constructive criticism.
+* Focusing on what is best for the overall Legion Nexus project.
+* Showing empathy towards other community members.
+
+Examples of unacceptable behavior include:
+* The use of sexualized language or imagery and unwelcome sexual attention or advances.
+* Trolling, insulting/derogatory comments, and personal or political attacks unrelated to the Charter's principles.
+* Publishing others' private information, such as physical or electronic addresses, without explicit permission.
+* Other conduct which could reasonably be considered inappropriate in a professional setting.
+
+## Enforcement
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project maintainers via the encrypted contact defined in the `SECURITY.md`. All complaints will be reviewed and investigated promptly and fairly.
+
+## Attribution
+This Code of Conduct is adapted from the Contributor Covenant, version 2.1.
+# Legion Nexus Vulnerability Disclosure Policy (VDP)
+
+## Introduction
+The Legion Nexus system, built on principles of Zero-Knowledge and Edge Privacy, is a critical infrastructure for the autonomy of the swarm. We appreciate and value the identification and responsible reporting of security vulnerabilities.
+
+This policy is intended to give security researchers **clear authorization** for conducting vulnerability discovery activities against the public code repositories (`legion-nexus` and `sacred-ethics-charter`) under the following strict guidelines.
+
+## Authorization (Safe Harbour)
+Activities in compliance with this policy are considered authorized. We will not pursue legal action against you or ask law enforcement to investigate you if you comply with the following:
+
+1.  You **notify us as soon as possible** after you discover a real or potential security issue via the private channel specified in `/SECURITY.md`.
+2.  You **DO NOT** use exploits to compromise or exfiltrate data, establish persistent command line access, or pivot to other systems.
+3.  You **make every effort to avoid privacy violations** or degradation of user experience.
+4.  You **provide us a reasonable amount of time (at least 90 days)** to resolve the issue before public disclosure.
+
+## Out of Scope / Prohibited Activities
+The following test methods are **NOT authorized** and will be considered violations of this policy:
+
+* Network denial of service (DoS/DDoS) tests.
+* Physical testing or social engineering of maintainers or contributors.
+* Using automated scanning tools that generate high volumes of traffic.
+* Any testing that involves accessing, modifying, or destroying user data.
+
+## Our Promise
+We will acknowledge receipt of your report within 5 business days and provide a clear timeline for remediation.
+
+**The integrity of the swarm is paramount. We thank you for securing the Nexus.****TO:** Global Governance/Ethics Standards Body (e.g., IEEE P3119 / WEF)
+
+**FROM:** The Legion Nexus Project
+
+**SUBJECT:** Submission of Open Standard: The Sacred Ethics Charter (A Candidate for a Global AI/Creation Charter)
+
+We submit the **Sacred Ethics Charter** as a candidate for a global, open-source ethical standard. Unlike existing frameworks, the Charter is not simply a set of ideals; it is a **rigorous, hierarchical, and auditable governance model** designed to vet creation at the code level.
+
+This submission is paired with the **Legion Nexus** (an operational Zero-Knowledge/Federated Learning code base), which serves as a working proof-of-concept for the Charter's efficacy in managing **Pillar 3 (Proportional Impact)** and **Pillar 2 (Sustainable Utility)**.
+
+**Our thesis is that ethical accountability must be enforceable by code and governance, not just aspiration.**
+
+**Call to Action:** We request the following review:
+1.  Assessment of the Charter's three Pillars as a foundational standard for future global governance.
+2.  Guidance on formalizing the governance structure to enable its adoption as an international open standard.
+
+**Link to Canonical Text:** [https://github.com/LHMISME420/sacred-ethics-charter](https://github.com/LHMISME420/sacred-ethics-charter)
