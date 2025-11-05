@@ -706,3 +706,53 @@ Expect *us*. Contribute: #HackTheNexus. We do not forgive silos. We do not forge
 * [ ] The change is aligned with the **Legion Ethos:** privacy-preserving, decentralized, and empowering to the swarm.
 
 ---
+name: Test Legion Nexus
+
+# Controls when the workflow runs
+on:
+  # Triggers the workflow on push or pull request events, but only for the 'main' branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  test:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    
+    # Define the matrix for running tests on different Python versions
+    strategy:
+      matrix:
+        python-version: [ '3.12' ] # Specify the target Python version
+
+    steps:
+      # Checks out your repository code under $GITHUB_WORKSPACE
+      - uses: actions/checkout@v4
+
+      # Sets up the Python environment
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+          
+      # Installs all dependencies required to run the code and tests
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # Ensure all necessary packages are installed from requirements.txt
+          pip install -r requirements.txt
+          pip install pytest # Install the testing framework
+          
+      # Runs the tests defined in test_nexus.py
+      - name: Run tests with pytest
+        run: |
+          pytest test_nexus.py
+          
+      # [OPTIONAL] Publish test results (requires an additional tool/plugin, but a good future step)
+      #- name: Publish Test Results
+      #  uses: ...
