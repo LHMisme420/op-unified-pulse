@@ -1,6 +1,6 @@
 # op-unified-pulse
 "Decentralized humanity super-app: Prove, Schedule, Sustain. We are Legion." Make it public—let the swarm contribute. 
-git clone https://github.com/LHMISME420/legion-nexus.gitcryptography  # For ZK stubs (sim AES as proxy)
+git clone https://github.com/LHMisme420/op-unified-pulse/blob/main/README.md # For ZK stubs (sim AES as proxy)
 schedule  # For TCP-like rostering
 numpy  # Health ML mocks
 click  # CLI polishimport hashlib
