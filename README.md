@@ -756,3 +756,33 @@ jobs:
       # [OPTIONAL] Publish test results (requires an additional tool/plugin, but a good future step)
       #- name: Publish Test Results
       #  uses: ...
+# GOVERNANCE: Path to Decentralization
+
+## 1. The Legion Ethos
+The Legion Nexus is designed for autonomous operation by the swarm. Its governance must reflect its architecture: **decentralized, verifiable, and resistant to single points of failure.** The goal is to transition from the current centralized GitHub management to a **DAO (Decentralized Autonomous Organization)** structure by v1.0.
+
+## 2. Current State (Shadow Governance)
+During the MVP (v0.1) and pre-DAO phases (v0.2), governance operates under the following rules:
+
+* **Final Authority:** The original maintainer (LHMisme420) holds final merge authority.
+* **Vetting Standard:** All architectural decisions must be vetted against the **Sacred Ethics Charter** (Pillar 3.B - Responsibility of Scale).
+* **Discussion:** All new feature proposals, architectural changes, and disputes must be raised as GitHub Issues with the tag **[DAO VOTE]** for preliminary, consensus-seeking discussion.
+
+## 3. The Path to DAO (v1.0 Milestone)
+Once Legion Nexus is deployed on a blockchain (Cosmos SDK, as per Roadmap), governance will transition to a fully decentralized model:
+
+### A. Vote Mechanism
+* **Code:** Governance proposals will be executed via on-chain smart contracts.
+* **Proposals:** Any change requiring a structural code change, a budget allocation (once treasury exists), or a change to the **Sacred Ethics Charter** itself will require a successful DAO vote.
+* **Initial Quorum:** To prevent easy hijacking, the initial quorum will be set high (e.g., 67% YES vote threshold).
+
+### B. Contribution Token (The Spark)
+* **Reward:** A non-transferrable, reputation-based token (The Spark) will be issued to contributors for accepted Pull Requests, detailed Issue feedback, and verified vulnerability reports.
+* **Purpose:** The Spark will act as the initial weight for voting power, ensuring that those who have *built* the Nexus hold the most influence over its future.
+
+## 4. Proposal Template
+All formal DAO-VOTE issues must follow this format:
+1.  **Proposal Title** (Must be clear and concise).
+2.  **Impact:** Which core component (ZKID, Scheduler, Health) is affected?
+3.  **Ethical Review:** Which Pillars of the Sacred Ethics Charter does this proposal affect, and why is it compliant?
+4.  **Cost/Benefit:** Why is the utility worth the development cost?
